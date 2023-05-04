@@ -1,2 +1,3 @@
-# dotfiles
-These are dotfiles usa
+# blOS
+Files to support installation of blOS
+
