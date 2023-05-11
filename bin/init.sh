@@ -15,7 +15,7 @@ function gen() {
 #Get the current hostname
 HOST=`hostname`
 #Check if we have a default hostname
-if [ $HOST = "fedora" || $HOST = "localhost"]; then
+if [ $HOST = "fedora" || $HOST = "localhost" ]; then
         echo -n "hostname[random]:"
         read NAME;
         if [ "$NAME" = "" ]; then
